@@ -1,10 +1,10 @@
 [package]
 name = "nrfxlib-sys"
-version = "2.4.2"
+version = "2.6.0"
 authors = [
-	"Jonathan 'theJPster' Pallant <github@thejpster.org.uk>",
-	"42 Technology Ltd <jonathan.pallant@42technology.com>",
-	"Dion Dokter <diondokter@gmail.com>"
+    "Jonathan 'theJPster' Pallant <github@thejpster.org.uk>",
+    "42 Technology Ltd <jonathan.pallant@42technology.com>",
+    "Dion Dokter <diondokter@gmail.com>",
 ]
 edition = "2021"
 description = "Rust bindings to the Nordic nRF9160 Socket Library."
@@ -14,22 +14,22 @@ repository = "https://github.com/nrf-rs/nrfxlib-sys"
 
 # The nrfxlib folder is quite large, so only include the pieces we need
 include = [
-	"src/**",
-	"include/**",
-	"build.rs",
-	"wrapper.h",
-	"*.md",
-	"third_party/nordic/nrfxlib/nrf_modem/lib/cortex-m33/hard-float/**",
-	"third_party/nordic/nrfxlib/nrf_modem/include/**",
-	"third_party/nordic/nrfxlib/nrf_modem/license.txt",
-	"third_party/nordic/nrfxlib/nrf_modem/README.rst",
-	"third_party/nordic/nrfxlib/crypto/nrf_cc310_platform/include/**",
-	"third_party/nordic/nrfxlib/crypto/nrf_cc310_platform/license.txt",
-	"third_party/nordic/nrfxlib/crypto/nrf_cc310_mbedcrypto/include/**",
-	"third_party/nordic/nrfxlib/crypto/nrf_cc310_mbedcrypto/license.txt",
-	"third_party/nordic/nrfxlib/crypto/nrf_oberon/lib/cortex-m33/hard-float/**",
-	"third_party/nordic/nrfxlib/crypto/nrf_oberon/include/**",
-	"third_party/nordic/nrfxlib/crypto/nrf_oberon/license.txt",
+    "src/**",
+    "include/**",
+    "build.rs",
+    "wrapper.h",
+    "*.md",
+    "third_party/nordic/nrfxlib/nrf_modem/lib/cortex-m33/hard-float/**",
+    "third_party/nordic/nrfxlib/nrf_modem/include/**",
+    "third_party/nordic/nrfxlib/nrf_modem/license.txt",
+    "third_party/nordic/nrfxlib/nrf_modem/README.rst",
+    "third_party/nordic/nrfxlib/crypto/nrf_cc310_platform/include/**",
+    "third_party/nordic/nrfxlib/crypto/nrf_cc310_platform/license.txt",
+    "third_party/nordic/nrfxlib/crypto/nrf_cc310_mbedcrypto/include/**",
+    "third_party/nordic/nrfxlib/crypto/nrf_cc310_mbedcrypto/license.txt",
+    "third_party/nordic/nrfxlib/crypto/nrf_oberon/lib/cortex-m33/hard-float/**",
+    "third_party/nordic/nrfxlib/crypto/nrf_oberon/include/**",
+    "third_party/nordic/nrfxlib/crypto/nrf_oberon/license.txt",
 ]
 
 [dependencies]
